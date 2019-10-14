@@ -40,7 +40,7 @@ def cardAt(n: int):
     elif(0 <= n <= 51):
         # Check that, `n` in range of 0 and 51. If true return card's name of nth.
         suit_index = int(n / 13)
-        face_index = n - suit_index * 13
+        face_index = n % 13
         suit = suits[suit_index]
         face = faces[face_index]
         return face + suit
