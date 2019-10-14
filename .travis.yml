@@ -7,4 +7,4 @@ git:
   depth: 1
 
 script:
-  - python -m doctest discover -p "*.py"
+  - python -m doctest cardAt.py
