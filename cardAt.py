@@ -57,5 +57,6 @@ class CardError(Exception):
 if __name__ == "__main__":
     doctest.testmod()
 
-for i in range(52):
-    print(cardAt(i))
+# uncomment 2 lines below to print all cards
+# for i in range(52):
+#     print(cardAt(i))
